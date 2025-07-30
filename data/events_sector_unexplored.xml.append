@@ -764,7 +764,7 @@
 	</event>
 	<event name="RVS_PERIPHERY_SPOILER_PROBE">
 		<loadEventList seeded="false" first="false" generate="false">
-			<event name="RVS_PERIPHERY_PROBE_EARLY" req="loc_sector_count" lvl="0" max_lvl="2"/> <!--S2-S3-->
+			<event name="RVS_PERIPHERY_PROBE_EARLY" req="loc_sector_count" max_lvl="2"/> <!--S2-S3-->
 			<event name="RVS_PERIPHERY_PROBE_MID" req="loc_sector_count" lvl="3" max_lvl="4"/> <!--S4-S5-->
 			<event name="RVS_PERIPHERY_PROBE" req="loc_sector_count" lvl="5"/> <!--S6+-->
 		</loadEventList>
